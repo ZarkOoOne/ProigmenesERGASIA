@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Quartus Projects/prm/simulation/modelsim
+vprm
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1732374138
+!i10b 1
+!s100 =O;A2I_BYChJa[o<ZN3G01
+IPQ4K94W0PN;>iL9n>_C2E0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 prm_sv_unit
+S1
+R0
+w1732373192
+8D:/Quartus Projects/prm/prm.sv
+FD:/Quartus Projects/prm/prm.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1732374137.000000
+!s107 D:/Quartus Projects/prm/prm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus Projects/prm|D:/Quartus Projects/prm/prm.sv|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work {+incdir+D:/Quartus Projects/prm}
+Z7 tCvgOpt 0
+vsevensegprm
+R1
+R2
+!i10b 1
+!s100 `4R]1SRzNVE;Hj@M:DS[h3
+I3[BAS8zXmPgibdT_JWGjg1
+R3
+!s105 sevensegprm_sv_unit
+S1
+R0
+w1732373210
+8D:/Quartus Projects/prm/sevensegprm.sv
+FD:/Quartus Projects/prm/sevensegprm.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1732374138.000000
+!s107 D:/Quartus Projects/prm/sevensegprm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus Projects/prm|D:/Quartus Projects/prm/sevensegprm.sv|
+!i113 1
+R5
+R6
+R7

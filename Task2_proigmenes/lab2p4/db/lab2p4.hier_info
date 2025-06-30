@@ -1,0 +1,26 @@
+|lab2p4
+D => D.IN3
+clk => clk.IN3
+Qa << dalwlatch:latchD.port2
+Qb << pedff:dffP.port2
+Qc << nedff:dffN.port2
+
+
+|lab2p4|dalwlatch:latchD
+D => Q$latch.DATAIN
+Clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2p4|pedff:dffP
+D => Q~reg0.DATAIN
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2p4|nedff:dffN
+D => Q~reg0.DATAIN
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

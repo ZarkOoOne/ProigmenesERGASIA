@@ -1,0 +1,84 @@
+|mux53
+u[0] => u[0].IN1
+u[1] => u[1].IN1
+u[2] => u[2].IN1
+v[0] => v[0].IN1
+v[1] => v[1].IN1
+v[2] => v[2].IN1
+w[0] => w[0].IN1
+w[1] => w[1].IN1
+w[2] => w[2].IN1
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+s[0] => s[0].IN2
+s[1] => s[1].IN1
+s[2] => s[2].IN1
+m[0] <= mux23:multi4.port3
+m[1] <= mux23:multi4.port3
+m[2] <= mux23:multi4.port3
+
+
+|mux53|mux23:multi1
+x[0] => m.DATAA
+x[1] => m.DATAA
+x[2] => m.DATAA
+y[0] => m.DATAB
+y[1] => m.DATAB
+y[2] => m.DATAB
+s => m.OUTPUTSELECT
+s => m.OUTPUTSELECT
+s => m.OUTPUTSELECT
+m[0] <= m.DB_MAX_OUTPUT_PORT_TYPE
+m[1] <= m.DB_MAX_OUTPUT_PORT_TYPE
+m[2] <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux53|mux23:multi2
+x[0] => m.DATAA
+x[1] => m.DATAA
+x[2] => m.DATAA
+y[0] => m.DATAB
+y[1] => m.DATAB
+y[2] => m.DATAB
+s => m.OUTPUTSELECT
+s => m.OUTPUTSELECT
+s => m.OUTPUTSELECT
+m[0] <= m.DB_MAX_OUTPUT_PORT_TYPE
+m[1] <= m.DB_MAX_OUTPUT_PORT_TYPE
+m[2] <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux53|mux23:multi3
+x[0] => m.DATAA
+x[1] => m.DATAA
+x[2] => m.DATAA
+y[0] => m.DATAB
+y[1] => m.DATAB
+y[2] => m.DATAB
+s => m.OUTPUTSELECT
+s => m.OUTPUTSELECT
+s => m.OUTPUTSELECT
+m[0] <= m.DB_MAX_OUTPUT_PORT_TYPE
+m[1] <= m.DB_MAX_OUTPUT_PORT_TYPE
+m[2] <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux53|mux23:multi4
+x[0] => m.DATAA
+x[1] => m.DATAA
+x[2] => m.DATAA
+y[0] => m.DATAB
+y[1] => m.DATAB
+y[2] => m.DATAB
+s => m.OUTPUTSELECT
+s => m.OUTPUTSELECT
+s => m.OUTPUTSELECT
+m[0] <= m.DB_MAX_OUTPUT_PORT_TYPE
+m[1] <= m.DB_MAX_OUTPUT_PORT_TYPE
+m[2] <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+

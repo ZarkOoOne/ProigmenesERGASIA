@@ -1,0 +1,7 @@
+module mux23 (input logic [2:0] x, y, 
+              input logic s, 
+              output logic [2:0] m);
+
+assign m= s ? y : x;
+
+endmodule

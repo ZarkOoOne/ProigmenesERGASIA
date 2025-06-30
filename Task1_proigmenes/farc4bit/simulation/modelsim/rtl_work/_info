@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Quartus Projects/farc4bit/simulation/modelsim
+vfa1bit
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1732376700
+!i10b 1
+!s100 gfzQ=XFFC:=z=]Xf?`7?U3
+IETiKhk<;6d?:^SozbD_eO2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 fa1bit_sv_unit
+S1
+R0
+w1732376107
+8D:/Quartus Projects/farc4bit/fa1bit.sv
+FD:/Quartus Projects/farc4bit/fa1bit.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1732376700.000000
+!s107 D:/Quartus Projects/farc4bit/fa1bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus Projects/farc4bit|D:/Quartus Projects/farc4bit/fa1bit.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work {+incdir+D:/Quartus Projects/farc4bit}
+Z8 tCvgOpt 0
+vfarc4bit
+R1
+R2
+!i10b 1
+!s100 6^mP_PMe?aYjjU[hg0h0o1
+I7TMl<Sz=mbl=5;f?2L3N_2
+R3
+!s105 farc4bit_sv_unit
+S1
+R0
+w1732376564
+8D:/Quartus Projects/farc4bit/farc4bit.sv
+FD:/Quartus Projects/farc4bit/farc4bit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Quartus Projects/farc4bit/farc4bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus Projects/farc4bit|D:/Quartus Projects/farc4bit/farc4bit.sv|
+!i113 1
+R6
+R7
+R8

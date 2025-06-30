@@ -1,0 +1,25 @@
+|msdff
+D => D.IN1
+clk => clk.IN1
+Q << gdlatch:Slave.port2
+Qn << gdlatch:Slave.port3
+
+
+|msdff|gdlatch:Master
+D => S_g.IN0
+D => R_g.IN0
+clk => R_g.IN1
+clk => S_g.IN1
+Qa <= Qa.DB_MAX_OUTPUT_PORT_TYPE
+Qb <= Qb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|msdff|gdlatch:Slave
+D => S_g.IN0
+D => R_g.IN0
+clk => R_g.IN1
+clk => S_g.IN1
+Qa <= Qa.DB_MAX_OUTPUT_PORT_TYPE
+Qb <= Qb.DB_MAX_OUTPUT_PORT_TYPE
+
+

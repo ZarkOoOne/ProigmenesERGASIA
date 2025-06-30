@@ -1,0 +1,149 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Rd[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Rd[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Rd[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Rd[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Rd[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Rd[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Rd[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Rd[7]",
+					"strict" : false
+				},
+				{
+					"name" : "C",
+					"strict" : false
+				},
+				{
+					"name" : "HS",
+					"strict" : false
+				},
+				{
+					"name" : "LS",
+					"strict" : false
+				},
+				{
+					"name" : "HI",
+					"strict" : false
+				},
+				{
+					"name" : "LO",
+					"strict" : false
+				},
+				{
+					"name" : "ALUControl[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Rm[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Rm[4]",
+					"strict" : false
+				},
+				{
+					"name" : "amt[0]",
+					"strict" : false
+				},
+				{
+					"name" : "amt[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Rm[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Rm[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Rm[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Rm[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Rm[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Rm[1]",
+					"strict" : false
+				},
+				{
+					"name" : "amt[2]",
+					"strict" : false
+				},
+				{
+					"name" : "opbarrel[0]",
+					"strict" : false
+				},
+				{
+					"name" : "opbarrel[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Rn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Rn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Rn[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Rn[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Rn[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Rn[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Rn[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Rn[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

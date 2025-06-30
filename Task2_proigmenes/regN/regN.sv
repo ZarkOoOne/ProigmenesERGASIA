@@ -1,0 +1,14 @@
+module regN 
+		#(parameter N = 8)
+		 (input logic [N-1:0] DataIn,
+        input logic clk, 
+        input logic regWE,
+        input logic CLR,
+        input logic [2:0] Addr, 
+        output logic [N-1:0] DataOut);
+		
+		always_ff @ (posedge clk, posedge CLR)
+			if (CLR) DataOut <= 0;
+			else if (regWE) 
+            DataOut <= DataIn;
+endmodule 

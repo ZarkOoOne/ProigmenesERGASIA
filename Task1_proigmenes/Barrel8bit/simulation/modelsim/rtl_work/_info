@@ -1,0 +1,36 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Quartus Projects/Barrel8bit/simulation/modelsim
+vBarrel8bit
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1734679278
+!i10b 1
+!s100 EGUI1U7>khez^0506SlO]3
+IF]=W0DH1^7TEoAgzmj9:i0
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 Barrel8bit_sv_unit
+S1
+R0
+w1734679201
+8D:/Quartus Projects/Barrel8bit/Barrel8bit.sv
+FD:/Quartus Projects/Barrel8bit/Barrel8bit.sv
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1734679278.000000
+!s107 D:/Quartus Projects/Barrel8bit/Barrel8bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus Projects/Barrel8bit|D:/Quartus Projects/Barrel8bit/Barrel8bit.sv|
+!i113 1
+o-sv -work work
+!s92 -sv -work work {+incdir+D:/Quartus Projects/Barrel8bit}
+tCvgOpt 0
+n@barrel8bit

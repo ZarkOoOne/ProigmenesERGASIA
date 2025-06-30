@@ -1,0 +1,46 @@
+# Reading D:/Quartus_Prime_Lite_v19_1/modelsim_ase/tcl/vsim/pref.tcl
+# do mux53_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Quartus_Prime_Lite_v19_1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/Quartus\ Projects/mux53 {D:/Quartus Projects/mux53/mux53.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:08 on Oct 25,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Quartus Projects/mux53" D:/Quartus Projects/mux53/mux53.sv 
+# -- Compiling module mux53
+# 
+# Top level modules:
+# 	mux53
+# End time: 18:27:08 on Oct 25,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Quartus\ Projects/mux53 {D:/Quartus Projects/mux53/mux23.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:08 on Oct 25,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Quartus Projects/mux53" D:/Quartus Projects/mux53/mux23.sv 
+# -- Compiling module mux23
+# 
+# Top level modules:
+# 	mux23
+# End time: 18:27:08 on Oct 25,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim mux53
+# vsim mux53 
+# Start time: 18:27:14 on Oct 25,2024
+# Loading sv_std.std
+# Loading work.mux53
+# Loading work.mux23
+add wave *
+force u 1 0, 10 10
+force v 1 0, 11 10
+force w 1 0, 0 10
+force x 0 0, 0 10
+force y 11 0, 1 10
+run

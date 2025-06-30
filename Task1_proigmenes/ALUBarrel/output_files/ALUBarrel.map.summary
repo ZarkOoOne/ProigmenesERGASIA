@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Dec 20 09:32:56 2024
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : ALUBarrel
+Top-level Entity Name : ALUBarrel
+Family : MAX 10
+Total logic elements : 111
+    Total combinational functions : 111
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 43
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

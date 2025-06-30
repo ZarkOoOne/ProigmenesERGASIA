@@ -1,0 +1,33 @@
+|mux53beh
+u[0] => m.DATAB
+u[1] => m.DATAB
+u[2] => m.DATAB
+v[0] => m.DATAB
+v[1] => m.DATAB
+v[2] => m.DATAB
+w[0] => m.DATAB
+w[1] => m.DATAB
+w[2] => m.DATAB
+x[0] => m.DATAB
+x[1] => m.DATAB
+x[2] => m.DATAB
+y[0] => m.DATAA
+y[1] => m.DATAA
+y[2] => m.DATAA
+s[0] => Equal0.IN31
+s[0] => Equal1.IN0
+s[0] => Equal2.IN31
+s[0] => Equal3.IN1
+s[1] => Equal0.IN30
+s[1] => Equal1.IN31
+s[1] => Equal2.IN0
+s[1] => Equal3.IN0
+s[2] => Equal0.IN29
+s[2] => Equal1.IN30
+s[2] => Equal2.IN30
+s[2] => Equal3.IN31
+m[0] <= m.DB_MAX_OUTPUT_PORT_TYPE
+m[1] <= m.DB_MAX_OUTPUT_PORT_TYPE
+m[2] <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+

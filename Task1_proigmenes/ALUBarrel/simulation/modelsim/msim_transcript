@@ -1,0 +1,91 @@
+# Reading D:/Quartus_Prime_Lite_v19_1/modelsim_ase/tcl/vsim/pref.tcl
+# do ALUBarrel_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Quartus_Prime_Lite_v19_1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/Quartus\ Projects/ALUBarrel {D:/Quartus Projects/ALUBarrel/ALUBarrel.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:10 on Dec 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Quartus Projects/ALUBarrel" D:/Quartus Projects/ALUBarrel/ALUBarrel.sv 
+# -- Compiling module ALUBarrel
+# 
+# Top level modules:
+# 	ALUBarrel
+# End time: 09:34:10 on Dec 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Quartus\ Projects/ALUBarrel {D:/Quartus Projects/ALUBarrel/Barrel8Bit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:10 on Dec 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Quartus Projects/ALUBarrel" D:/Quartus Projects/ALUBarrel/Barrel8Bit.sv 
+# -- Compiling module Barrel8bit
+# 
+# Top level modules:
+# 	Barrel8bit
+# End time: 09:34:10 on Dec 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Quartus\ Projects/ALUBarrel {D:/Quartus Projects/ALUBarrel/CompFlags.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:10 on Dec 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Quartus Projects/ALUBarrel" D:/Quartus Projects/ALUBarrel/CompFlags.sv 
+# -- Compiling module CompFlags
+# 
+# Top level modules:
+# 	CompFlags
+# End time: 09:34:10 on Dec 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Quartus\ Projects/ALUBarrel {D:/Quartus Projects/ALUBarrel/alunbit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:34:10 on Dec 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Quartus Projects/ALUBarrel" D:/Quartus Projects/ALUBarrel/alunbit.sv 
+# -- Compiling module alunbit
+# 
+# Top level modules:
+# 	alunbit
+# End time: 09:34:10 on Dec 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim ALUBarrel
+# vsim ALUBarrel 
+# Start time: 09:34:30 on Dec 20,2024
+# Loading sv_std.std
+# Loading work.ALUBarrel
+# Loading work.Barrel8bit
+# Loading work.alunbit
+# Loading work.CompFlags
+# ** Warning: (vsim-3017) D:/Quartus Projects/ALUBarrel/ALUBarrel.sv(11): [TFMPC] - Too few port connections. Expected 8, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUBarrel/ALU File: D:/Quartus Projects/ALUBarrel/alunbit.sv
+# ** Warning: (vsim-3015) D:/Quartus Projects/ALUBarrel/ALUBarrel.sv(11): [PCDPC] - Port size (1) does not match connection size (2) for port 'ALUControl'. The port definition is at: D:/Quartus Projects/ALUBarrel/alunbit.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUBarrel/ALU File: D:/Quartus Projects/ALUBarrel/alunbit.sv
+# ** Warning: (vsim-3015) D:/Quartus Projects/ALUBarrel/ALUBarrel.sv(11): [PCDPC] - Port size (1) does not match connection size (4) for port 'N'. The port definition is at: D:/Quartus Projects/ALUBarrel/alunbit.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUBarrel/ALU File: D:/Quartus Projects/ALUBarrel/alunbit.sv
+# ** Warning: (vsim-3722) D:/Quartus Projects/ALUBarrel/ALUBarrel.sv(11): [TFMPC] - Missing connection for port 'Z'.
+# ** Warning: (vsim-3722) D:/Quartus Projects/ALUBarrel/ALUBarrel.sv(11): [TFMPC] - Missing connection for port 'C'.
+# ** Warning: (vsim-3722) D:/Quartus Projects/ALUBarrel/ALUBarrel.sv(11): [TFMPC] - Missing connection for port 'V'.
+add wave *
+force Rn 01111000 0
+force Rm 01000010 0
+force amt 001 0
+force opbarrel 01 0
+force ALUControl 10 0
+run
+force Rn 00000000 0
+force Rm 11111110 0
+force amt 001 0
+force opbarrel 11 0
+force ALUControl 1 0
+run
+force Rn 00100001 0
+force Rm 00001111 0
+force amt 01 0
+force opbarrel 01 0
+force ALUControl 11 0
+run
+wave zoom full 
+# {0 ps} {315 ps}

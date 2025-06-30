@@ -1,0 +1,15 @@
+module (input logic C,N,V,Z,
+        output logic HS, LS, HI, LO, GE, LE, GT, LT);
+		  
+logic not_z;
+assign HS = C;
+not not1(not_z,Z);
+and andgate1(HI,not_z,C);
+not not2(LO,C);
+or orgate1(LS,z,LO);
+xnor xnor1(GE,N,V);
+xor xor1(LT,N,V);
+or orLE(LE,Z,LT);
+and andgate2(GT,not_z,GE);
+
+endmodule

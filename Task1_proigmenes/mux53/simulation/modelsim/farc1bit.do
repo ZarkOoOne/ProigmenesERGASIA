@@ -1,0 +1,44 @@
+# Reading D:/Quartus_Prime_Lite_v19_1/modelsim_ase/tcl/vsim/pref.tcl
+# do farc4bit_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Quartus_Prime_Lite_v19_1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/Quartus\ Projects/farc4bit {D:/Quartus Projects/farc4bit/farc4bit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:45:00 on Nov 23,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Quartus Projects/farc4bit" D:/Quartus Projects/farc4bit/farc4bit.sv 
+# -- Compiling module farc4bit
+# 
+# Top level modules:
+# 	farc4bit
+# End time: 17:45:00 on Nov 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Quartus\ Projects/farc4bit {D:/Quartus Projects/farc4bit/fa1bit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:45:00 on Nov 23,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Quartus Projects/farc4bit" D:/Quartus Projects/farc4bit/fa1bit.sv 
+# -- Compiling module fa1bit
+# 
+# Top level modules:
+# 	fa1bit
+# End time: 17:45:00 on Nov 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim farc4bit
+# vsim farc4bit 
+# Start time: 17:45:17 on Nov 23,2024
+# Loading sv_std.std
+# Loading work.farc4bit
+# Loading work.fa1bit
+add wave *
+force a 1 1, 1 10
+force b 1 1, 0 10
+force cin 0 1,0 10
+run

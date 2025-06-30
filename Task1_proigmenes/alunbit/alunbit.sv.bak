@@ -1,0 +1,18 @@
+module alubit #(parameter N = 8)
+(input logic [N-1:0] a,b,
+input logic  ALUControl,
+output logic [N-1:0] Result);
+
+logic [N-1:0] condinvb;
+logic [N:0] sum;
+
+assign condinvb = ALUControl ? ~b : b;
+assign sum = a + condinvb + ALUControl;
+always_comb
+    casex (ALUControl)
+     2'b0?: Result = sum;
+     2'b10: Result = a & b;
+     2'b11: Result = a | b;
+      default: Result = 'bx;
+   endcase
+endmodule 
